@@ -1,3 +1,5 @@
+package javabasics.two;
+
 public class Main {
     public static void main(String[] args) {
         exerciseOne();
