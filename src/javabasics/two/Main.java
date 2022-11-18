@@ -1,6 +1,7 @@
 package javabasics.two;
 
 public class Main {
+    //Run this like before to execute all the exercises
     public static void main(String[] args) {
         exerciseOne();
         exerciseTwo();
