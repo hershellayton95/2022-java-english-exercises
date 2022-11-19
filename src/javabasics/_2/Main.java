@@ -12,6 +12,7 @@ public class Main {
      * 1: Change (my name) to your name
      */
     public static void exerciseOne() {
+        System.out.println("Exercise 1: ");
         System.out.println("Hello (my name)!"); //<--- Edit this line
     }
 
@@ -21,7 +22,7 @@ public class Main {
      * correctly!
      */
     public static void exerciseTwo() {
-        System.out.println("\nTask 2:");
+        System.out.println("\nExercise 2: ");
         System.out.print("Hello");
         //Write code underneath this
 
@@ -33,7 +34,7 @@ public class Main {
      * Expected print = 'This should all appear on the same line'
      */
     public static void exerciseThree() {
-        System.out.println("\nTask 3: ");
+        System.out.println("\nExercise 3: ");
         // Change the code below here
         System.out.println("This should ");
         System.out.println("all appear ");

@@ -12,6 +12,7 @@ public class Main {
      * i.e. 'a', 'b', 'c'. You will need multiple print statements
      */
     private static void exerciseOne() {
+        System.out.println("Exercise 1:");
         // Write your code here
     }
 
@@ -21,6 +22,7 @@ public class Main {
      * your lunch as a double, i.e. 4.99
      */
     private static void exerciseTwo() {
+        System.out.println("\nExercise 2:");
         // Write your code here
     }
 
@@ -34,6 +36,7 @@ public class Main {
      * System.out.println(favouriteLetter)
      */
     private static void exerciseThree() {
+        System.out.println("\nExercise 3:");
         // Write your code here
     }
 }
