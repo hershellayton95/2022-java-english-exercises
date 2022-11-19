@@ -2,9 +2,7 @@ package javabasics._4;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
+
     }
 
     /**
@@ -12,6 +10,7 @@ public class Main {
      *    one line using the "+" in your print statement. Only use 1 print statement
      */
     private static void exerciseOne() {
+        System.out.println("Exercise 1:");
         // Write your code here
     }
 
@@ -23,6 +22,7 @@ public class Main {
      *    System.out.println("My Age=" + myAge +", my initial=" + myInitial);
      */
     private static void exerciseTwo() {
+        System.out.println("\nExercise 2:");
         //Write your code here
     }
 
@@ -30,6 +30,7 @@ public class Main {
      * 3: Write comments above each line of code, describing what the line of code is doing
      */
     private static void exerciseThree() {
+        System.out.println("\nExercise 3:");
         boolean hasEatenLunch = false;
 
         double lunchCost = 5.99;
