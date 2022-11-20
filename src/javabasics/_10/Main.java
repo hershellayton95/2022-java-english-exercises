@@ -26,7 +26,7 @@ public class Main {
         boolean isWarm = temperatureInCelsius >= isWarmTemperatureInCelsius;
         boolean wearingShorts = true;
 
-        // Your if statement here
+        // Write your code here
     }
 
     /**
@@ -44,7 +44,7 @@ public class Main {
         int age = 30;
         double eurosInPocket = 7.5;
 
-        // Your if statement here
+        // Write your code here
     }
 
     /**
@@ -71,7 +71,7 @@ public class Main {
 
     /**
      * 4: BONUS! This is an optional task, but it is recommended you complete it
-     *    Write a XOR condition, print "safe" if only one car is headed down the road,
+     *    Write a XOR condition, print "safe" if only one car is driving down the road,
      *    print "unsafe" if not.
      */
     private static void exerciseFourBonus() {
@@ -79,6 +79,6 @@ public class Main {
         boolean carIsDrivingFromLeftToRight = true;
         boolean carIsDrivingFromRightToLeft = false;
 
-        //Write your XOR if statement here
+        //Write your code here
     }
 }
