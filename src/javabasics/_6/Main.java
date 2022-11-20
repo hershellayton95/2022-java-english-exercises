@@ -12,7 +12,7 @@ public class Main {
     /**
      * 1: Create a double variable called value, create another double variable called valueSquareRoot
      *
-     *    Use Math.sqrt to find the square root of value and assign it to
+     *    Use Math.sqrt to find the square root of value and assign it to valueSquareRoot
      */
     private static void exerciseOne() {
         System.out.println("Exercise 1:");
@@ -33,12 +33,14 @@ public class Main {
         int valueA = 5;
         int valueB = 10;
 
+        System.out.println("Max=");
+        System.out.println("Min=");
+
         // Write your code here
     }
 
     /**
-     * 3: Use Modulus (%) to calculate the remaining amount of money if we buy as many burgers as possible
-     *
+     * 3: Use Modulus (%) to calculate the remaining amount of money if we buy as many burgers as possible, print remainder
      */
     private static void exerciseThree() {
         System.out.println("\nExercise 3:");
@@ -46,6 +48,7 @@ public class Main {
         int totalMoney = 50;
         int costPerBurger = 9;
         // Write your code here
+        System.out.println("Remainder=");
     }
 
     /**
