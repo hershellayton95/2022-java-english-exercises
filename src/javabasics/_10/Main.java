@@ -8,6 +8,11 @@ public class Main {
         exerciseFourBonus();
     }
 
+    /**
+     * AND = &&
+     * OR = ||
+     * XOR = ^
+     */
 
     /**
      * 1: Using an if statement, print: "Comfortable clothes"
@@ -30,7 +35,7 @@ public class Main {
     }
 
     /**
-     * 2: We are going to automate the club bouncer, write a condition with and statements
+     * 2: We are going to automate the club bouncer, write a condition with if statements with the && (and)
      *    to check if someone is able to enter the club.
      *
      *    Their shoeType must be "fancy", they must be over 18, and they must have at least 10 euros
@@ -71,8 +76,11 @@ public class Main {
 
     /**
      * 4: BONUS! This is an optional task, but it is recommended you complete it
+     * ---------------------------------------------------------------------------------
      *    Write a XOR condition, print "safe" if only one car is driving down the road,
-     *    print "unsafe" if not.
+     *    print "CRASH!" if not.
+     *
+     *    XOR = ^
      */
     private static void exerciseFourBonus() {
         System.out.println("\nExercise 4 (Optional) - One way road:");
