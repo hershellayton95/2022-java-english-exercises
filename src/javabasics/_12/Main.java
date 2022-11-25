@@ -2,29 +2,69 @@ package javabasics._12;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne("Java runs on over 2 billion devices");
-        exerciseOne("+31 2 58765446");
-        exerciseOne("hello world");
+        System.out.println("Exercise 1 - String score:");
+        exerciseOne("Java runs on over 2 billion devices", 15);
+        exerciseOne("+31 2 58765446", 48);
+        exerciseOne("hello world", 42);
+
+        System.out.println("\nExercise 2 - Meal score:");
+        exerciseTwo("sandwich", 2.5, 12.5);
+        exerciseTwo("soup", 10, 30);
+        exerciseTwo("soup", 1, 5);
     }
 
     /**
      * 1: We are going to 'score' strings, given a string you are to calculate its score based on the following factors.
      *
-     *    Start with a base score of the string's length
-     *    * you can find this out with text.length()
+     *    Start with a base score of the string's length, this is the starting score. Use .length() on a string
+     *
+     *    The Maximum starting score is 20, if a score is over 20. Set it to 20.
+     *
+     *    If the string contains the letter a, -5 from the score
      *
      *    If the string is all lowercase, add 10 to the score.
-     *    * You can check this by using .toLowerCase() and .equals()
      *
-     *    If the string contains any numbers, -5
-     *
+     *    If the score is now over 20, times it by 2
      */
-    public static double exerciseOne(String text) {
-        System.out.println("Exercise 1 - String score:");
+    public static double exerciseOne(String text, double expectedScore) {
         double yourScore = 0;
 
-        // Write your calculation code here
+        // Start your code here
+
+        // End it here
+
+        System.out.print("Expected score=" + expectedScore +", actual score=" + yourScore);
+        if (expectedScore != yourScore) {
+            System.out.println(" - Failed: Wrong score for '" + text +"'");
+        } else {
+            System.out.println(" - Success!");
+        }
 
         return yourScore;
+    }
+
+    /**
+     * 2: We are going to 'score' a meal, given a string of mealType you are to calculate its score based on the following factors.
+     *
+     *    For the meal type sandwich calculate score like the following: 5 * weight
+     *
+     *    For the meal type of soup calculate score like the following 3 * weight
+     *
+     *    The minimum score should be 5, if a score is lower than this increase it to 5
+     */
+    public static double exerciseTwo(String mealType, double weight, double expectedScore) {
+        double yourMealScore = 0;
+        // Start your code here
+
+        // End it here
+
+        System.out.print("Expected score=" + expectedScore +", actual score=" + yourMealScore);
+        if (expectedScore != yourMealScore) {
+            System.out.println(" - Failed: Wrong score for '" + mealType +"'");
+        } else {
+            System.out.println(" - Success!");
+        }
+
+        return yourMealScore;
     }
 }
