@@ -14,9 +14,9 @@ public class Main {
     }
 
     /**
-     * 1a: Use a FOR EACH loop to the total sum all the elements of the ArrayList items
-     * 1b: Use a FOR EACH loop to the total sum all the elements of the int array arrItems
-     * 1c: Use a FOR I loop to the total sum all the elements of the int ArrayList items
+     * 1a: Use a FOR EACH loop to the total sum all the elements of the ArrayList itemsA
+     * 1b: Use a FOR EACH loop to the total sum all the elements of the int array itemsB
+     * 1c: Use a FOR I loop to the total sum all the elements of the int ArrayList itemsA
      * <p>
      * Print your results
      * <p>
@@ -24,19 +24,28 @@ public class Main {
      */
     private static void exerciseOne() {
         System.out.println("Exercise 1a:");
-        List<Integer> items = Arrays.asList(1, 56, 23);
+        List<Integer> itemsA = Arrays.asList(1, 56, 23);
 
-        int itemsSum = 0;
+        int sumForA = 0;
 
         // Write your code for 1a here
         System.out.println("\nExercise 1b:");
-        int[] arrItems = new int[]{1, 56, 23};
+        int[] itemsB = new int[]{1, 56, 23};
 
-        int arrItemsSum = 0;
+        int sumForB = 0;
 
         // Write your code for 1b here
         System.out.println("\nExercise 1c:");
+
+        int sumForC = 0;
+
         // Write your code for 1c here, refer back to the lesson to check the fori syntax
+
+        if (sumForA != sumForB || sumForB != sumForC) {
+            System.out.println("Failed, sums are different!");
+        } else {
+            System.out.println("Success, sums are the same!");
+        }
     }
 
     /**
@@ -44,7 +53,7 @@ public class Main {
      * using a for each loop and an if statement/Math.min
      */
     private static void exerciseTwo() {
-        List<Integer> items = Arrays.asList(300, 23, 56);
+        List<Integer> items = Arrays.asList(300, 23, 56, 55, 84);
         int minNumber = Integer.MAX_VALUE;
         int maxNumber = 0;
 
@@ -88,7 +97,7 @@ public class Main {
 
     /**
      * 5: BONUS! This is an optional task, but it is recommended you complete it
-     * -------------------------------------------------------------------------
+     * -------------------------------------------------------------------------<br/>
      * Inside of the fori loop below, write another fori loop to complete all
      * the multiplication tables between 1-10.
      *
