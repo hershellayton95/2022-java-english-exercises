@@ -2,12 +2,14 @@ package javaoop.main;
 
 public class Main {
     public static void main(String[] args) {
-        Lunch yesterdaysLunch = new Lunch();
         Lunch todaysLunch = new Lunch(3.99, "Sunday");
-        Lunch tomorrowsLunch = new Lunch(7.50);
 
+        System.out.println(todaysLunch.getPrice());
+        double newPrice = 5.50;
 
-        todaysLunch.printLunch();
-        tomorrowsLunch.printLunch();
+        todaysLunch.setPrice(newPrice);
+
+        System.out.println(todaysLunch.getPrice());
+        System.out.println(todaysLunch.getNumberOfTimesWeHaveGotPrice());
     }
 }
