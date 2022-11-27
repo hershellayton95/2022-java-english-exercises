@@ -1,4 +1,4 @@
-package javaoop.main;
+package javaoop.main._2;
 
 public class Lunch {
     Double price = null;
