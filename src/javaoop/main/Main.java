@@ -1,15 +1,11 @@
 package javaoop.main;
 
+import javaoop.main._4.ScopedLunch;
+
+import java.util.Random;
+
 public class Main {
-    public static void main(String[] args) {
-        Lunch todaysLunch = new Lunch(3.99, "Sunday");
-
-        System.out.println(todaysLunch.getPrice());
-        double newPrice = 5.50;
-
-        todaysLunch.setPrice(newPrice);
-
-        System.out.println(todaysLunch.getPrice());
-        System.out.println(todaysLunch.getNumberOfTimesWeHaveGotPrice());
+    void start(String[] args) {
+        final ScopedLunch lunchInstance = new ScopedLunch(3.99, "Sunday");
     }
 }
