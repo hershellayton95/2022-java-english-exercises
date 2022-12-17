@@ -25,7 +25,7 @@ public class Main {
         }
     }
 
-    /**
+     /**
      * 2: Write an if statement that checks if we can afford lunch with the 2 variables, 'remainingMoney' and 'lunchCost'
      *
      *    Print: "Lunch time!" if you can afford lunch, if lunchCost is less than remainingMoney
@@ -34,6 +34,7 @@ public class Main {
      *    Experiment with the values to check both conditions work
      */
     private static void exerciseTwo() {
+        System.out.println("\nExercise 2:");
         double remainingMoney = 15.0;
         double lunchCost = 5.0;
 
@@ -53,7 +54,7 @@ public class Main {
      *    Remember we can have multiple lines of code inside our 'code blocks'
      */
     private static void exerciseThree() {
-        System.out.println("\nExercise 2:");
+        System.out.println("\nExercise 3:");
         double ourDouble = 3.5;
         //Write your code here
     }
@@ -71,7 +72,7 @@ public class Main {
      *    Remember, the order is very important!
      */
     private static void exerciseFour() {
-        System.out.println("\nExercise 3:");
+        System.out.println("\nExercise 4:");
 
         int employeeAge = 30;
 

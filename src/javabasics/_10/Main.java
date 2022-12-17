@@ -15,9 +15,8 @@ public class Main {
      */
 
     /**
-     * 1: Using an if statement, print: "Comfortable clothes"
+     * 1: Using an if statement, print: "Comfortable clothes" if the following conditions are met:
      *
-     *    if the following conditions are met:
      *    isWarm is true and wearingShorts is true
      *    isWarm is false and wearingShorts is false
      *
@@ -35,10 +34,10 @@ public class Main {
     }
 
     /**
-     * 2: We are going to automate the club bouncer, write a condition with if statements with the && (and)
+     * 2: We are going to automate the club bouncer, write a condition with an if statement with the && (and)
      *    to check if someone is able to enter the club.
      *
-     *    Their shoeType must be "fancy", they must be over 18, and they must have at least 10 euros
+     *    Their shoeType must be "fancy" AND they must be over 18 AND they must have at least 10 euros in their pocket
      *
      *    Write 1 if statement that checks all of these, print "Come in" if they meet the condition
      *    or "stay out" if they don't.
@@ -46,8 +45,12 @@ public class Main {
     private static void exerciseTwo() {
         System.out.println("\nExercise 2 - Club Bouncer:");
         String shoeType = "fancy";
+
+
+
         int age = 30;
         double eurosInPocket = 7.5;
+        double eurosForEntry = 10;
 
         // Write your code here
     }
@@ -68,8 +71,8 @@ public class Main {
     private static void exerciseThree() {
         System.out.println("\nExercise 3 - Test Grader:");
         double ourTestScore = 8;
-        double maxTestScore = 12;
-        boolean isTestRetry = false;
+        double maxTestScore = 10;
+        boolean isTestRetry = true;
         //Write your code here
     }
 
@@ -78,7 +81,7 @@ public class Main {
      * 4: BONUS! This is an optional task, but it is recommended you complete it
      * ---------------------------------------------------------------------------------
      *    Write a XOR condition, print "safe" if only one car is driving down the road,
-     *    print "CRASH!" if not.
+     *    print "CRASH! or No cars" if not.
      *
      *    XOR = ^
      */
