@@ -62,6 +62,7 @@
 //     *    use SNAKE_CASE naming
 //     */
 //    public static void exerciseFour() {
+//        System.out.println("\nExercise 4:");
 //        for (int week = 0; week < 52; week++) {
 //            for (int day = 0; day < 7; day++) {
 //                for (int hour = 0; hour < 24; hour++) {
