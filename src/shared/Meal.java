@@ -1,5 +1,6 @@
 package shared;
 
+import java.util.Objects;
 import java.util.Set;
 
 public class Meal {
@@ -36,5 +37,20 @@ public class Meal {
                 ", weightInGrams=" + weightInGrams +
                 ", ingredients=" + ingredients +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object theOtherObject) {
+        if (this == theOtherObject) return true;
+        if (!(theOtherObject instanceof Meal)) return false;
+
+        Meal meal = (Meal) theOtherObject;
+
+        return Objects.equals(ingredients, meal.ingredients);
+    }
+
+    @Override
+    public int hashCode() {
+        return ingredients != null ? ingredients.hashCode() : 0;
     }
 }
