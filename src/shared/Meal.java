@@ -30,6 +30,10 @@ public class Meal {
         this.weightInGrams = weightInGrams;
     }
 
+    public Set<String> getIngredients() {
+        return ingredients;
+    }
+
     @Override
     public String toString() {
         return "Meal{" +
