@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Exercises {
     public static void main(String[] args) {
-        exerciseTwo();
+        exercise2();
     }
 
     /**
@@ -27,7 +27,7 @@ public class Exercises {
      *    Using the function below set the student name and ages
      *
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("Exercise 2:");
         List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
@@ -56,7 +56,7 @@ public class Exercises {
      *    Hint: use a double to stop automatic integer rounding
      */
 
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
 
         // Write your code here

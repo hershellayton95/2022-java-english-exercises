@@ -2,10 +2,10 @@ package javabasics._8;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
-        exerciseFour();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4();
     }
 
     /**
@@ -15,7 +15,7 @@ public class Main {
      * <p>
      * Then convert this back to a string and print it, it should be 90 and not 882
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("\nExercise 1:");
         String ourNumberStr = "88";
         //Write your code here
@@ -27,7 +27,7 @@ public class Main {
      * 2b: Play around line 37, experiment the integer of 0 to a number where it prints 'w', instead of 'H'
      * think about what the charAt method is doing?
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2a:");
         char ourChar = 'a';
         String ourCharString = " "; // <--- Change this line
@@ -47,7 +47,7 @@ public class Main {
      * Change the 3 lines indicated below so it no longer crashes, think about the type
      * conversions. "hello" can't be a number
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
 
         String intStrToConvert = "5.5"; // Change this line
@@ -72,7 +72,7 @@ public class Main {
      *
      *    Your result should be 288.0!
      */
-    private static void exerciseFour() {
+    private static void exercise4() {
         System.out.println("\nExercise 4:");
         String startStr = "5 ";
         // Write your code here

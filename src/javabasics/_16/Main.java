@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
+        exercise1();
+        exercise2();
+        exercise3();
     }
 
     /**
@@ -18,7 +18,7 @@ public class Main {
      * return the appropriate result type
      *
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1:");
         // Put this into a function
         double celsius = 30;
@@ -36,7 +36,7 @@ public class Main {
      *    2) Remove spaces at the start and the end
      *    3) If the name contains any numbers, instead of returning the name, return "Invalid"
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
         List<String> names = Arrays.asList("Alan   ", "Alice   ", "Ant0ni0   ", "  Aziz");
 
@@ -48,7 +48,7 @@ public class Main {
     /**
      * 3: Write a function that prints out every variable seen in the code. It should not return anything
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
 
         double myLunchPrice = 5.99;

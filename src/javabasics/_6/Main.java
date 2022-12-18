@@ -3,10 +3,10 @@ package javabasics._6;
 public class Main {
     // Don't forget to use comments to clear things up if you need them!
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
-        exerciseFourBonus();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4Bonus();
     }
 
     /**
@@ -14,7 +14,7 @@ public class Main {
      *
      *    Use Math.sqrt to find the square root of value and assign it to valueSquareRoot
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1:");
         // Write your code here
     }
@@ -28,7 +28,7 @@ public class Main {
      *
      *    You must put your variables into these methods and separate them with a comma
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
         int valueA = 5;
         int valueB = 10;
@@ -42,7 +42,7 @@ public class Main {
     /**
      * 3: Use Modulus (%) to calculate the remaining amount of money if we buy as many burgers as possible, print remainder
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
 
         int totalMoney = 50;
@@ -60,7 +60,7 @@ public class Main {
      *
      * Answers can be found in resources
      */
-    private static void exerciseFourBonus() {
+    private static void exercise4Bonus() {
         System.out.println("\nExercise 4 (Bonus!):");
 
         double ourValue = 4.5;

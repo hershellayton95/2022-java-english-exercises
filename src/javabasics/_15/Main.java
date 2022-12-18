@@ -2,8 +2,8 @@ package javabasics._15;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
+        exercise1();
+        exercise2();
     }
 
     /**
@@ -13,7 +13,7 @@ public class Main {
      *
      *     Let's just run it for 5 years OR until it reaches €15,000 use || just like an if!
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1 - Compounding Interest:");
 
         double currentInvestmentValueEuros = 10_000;
@@ -50,7 +50,7 @@ public class Main {
      *
      *    Print the number of days it takes for our bot to sell its pounds
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("Exercise 2 - Selling the pound:");
         double poundToEuroExchangeRate = 1 + (Math.random() * 0.2);
         int daysToSell = 0;

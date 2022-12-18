@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
+        exercise1();
+        exercise2();
+        exercise3();
     }
 
     /**
@@ -19,7 +19,7 @@ public class Main {
      * <p>
      * The print out the first remaining item
      */
-    public static void exerciseOne() {
+    public static void exercise1() {
         System.out.println("Exercise 1:");
         ArrayList<Integer> numbers = new ArrayList<>();
 
@@ -38,7 +38,7 @@ public class Main {
      * Create a print statement to output the name and price of each
      * menu item correspond
      */
-    public static void exerciseTwo() {
+    public static void exercise2() {
         System.out.println("\nExercise 1:");
         //Write your code here
     }
@@ -54,7 +54,7 @@ public class Main {
      * <p>
      * print the total
      */
-    public static void exerciseThree() {
+    public static void exercise3() {
         System.out.println("\nExercise 3:");
         int[] items = new int[]{5, 10404, -234348, -53, 9, 91, 92, 34534, 12334, 1435};
 

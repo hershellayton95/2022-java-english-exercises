@@ -2,9 +2,9 @@ package javabasics._11;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThreeBonus();
+        exercise1();
+        exercise2();
+        exercise3Bonus();
     }
 
     /**
@@ -12,7 +12,7 @@ public class Main {
      *    "cheeseburger" cost: 7.99 and calories 850
      *     "fries" cost: 3.99 and calories 250
      */
-    public static void exerciseOne() {
+    public static void exercise1() {
         System.out.println("Exercise 1 - Fast Food Order:");
         String fastFoodOrder = "hamburger";
         double orderCost = 0;
@@ -49,7 +49,7 @@ public class Main {
      *    If the number is above 20, or not prime number print: "Invalid entry", use a 'default'
      *    statement for this
      */
-    public static void exerciseTwo() {
+    public static void exercise2() {
         System.out.println("\nExercise 2 - Prime numbers:");
 
         int inputNumber = 17;
@@ -64,7 +64,7 @@ public class Main {
      * i.e. case 19 -> System.out.print("Largest prime under 20");
      *
      */
-    public static void exerciseThreeBonus() {
+    public static void exercise3Bonus() {
         System.out.println("\nExercise 3 - Prime  numbers (Bonus)");
 
         // Your switch statement here

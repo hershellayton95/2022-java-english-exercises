@@ -3,14 +3,14 @@ package javabasics._12;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Exercise 1 - String score:");
-        exerciseOne("Java runs on over 2 billion devices", 15);
-        exerciseOne("+31 2 58765446", 48);
-        exerciseOne("hello world", 42);
+        exercise1("Java runs on over 2 billion devices", 15);
+        exercise1("+31 2 58765446", 48);
+        exercise1("hello world", 42);
 
         System.out.println("\nExercise 2 - Meal score:");
-        exerciseTwo("sandwich", 2.5, 12.5);
-        exerciseTwo("soup", 10, 30);
-        exerciseTwo("soup", 1, 5);
+        exercise2("sandwich", 2.5, 12.5);
+        exercise2("soup", 10, 30);
+        exercise2("soup", 1, 5);
     }
 
     /**
@@ -26,7 +26,7 @@ public class Main {
      *
      *    If the score is now over 20, times it by 2
      */
-    public static double exerciseOne(String text, double expectedScore) {
+    public static double exercise1(String text, double expectedScore) {
         double yourScore = 0;
 
         // Start your code here
@@ -52,7 +52,7 @@ public class Main {
      *
      *    The minimum score should be 5, if a score is lower than this increase it to 5
      */
-    public static double exerciseTwo(String mealType, double weight, double expectedScore) {
+    public static double exercise2(String mealType, double weight, double expectedScore) {
         double yourMealScore = 0;
         // Start your code here
 

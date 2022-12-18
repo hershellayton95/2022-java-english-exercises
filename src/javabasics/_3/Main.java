@@ -2,16 +2,16 @@ package javabasics._3;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
+        exercise1();
+        exercise2();
+        exercise3();
     }
 
     /**
      * 1: print out your initials using System.out.print and then a char literal,
      * i.e. 'a', 'b', 'c'. You will need multiple print statements
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1:");
         // Write your code here
     }
@@ -21,7 +21,7 @@ public class Main {
      * had lunch today as a boolean literal i.e. true, false, then print the price of
      * your lunch as a double, i.e. 4.99
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
         // Write your code here
     }
@@ -35,7 +35,7 @@ public class Main {
      * System.out.print("My favourite letter=");
      * System.out.println(favouriteLetter)
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
         // Write your code here
     }

@@ -2,8 +2,8 @@ package javaoop.exercises._3;
 
 public class Exercises {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
+        exercise1();
+        exercise2();
     }
 
     /**
@@ -16,7 +16,7 @@ public class Exercises {
      *
      *    Once ready use all 5 below
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1:");
 
         // Write and use your 5 getters and setters!
@@ -32,7 +32,7 @@ public class Exercises {
      *    Create a counter for one of the getters, try to think about
      *    what other code could be inside a getter? Why not write it?
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
 
         //Write your code here

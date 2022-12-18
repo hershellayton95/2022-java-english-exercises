@@ -4,16 +4,16 @@
 //
 //public class Exercises {
 //    public static void main(String[] args) {
-//        exerciseOne();
-//        exerciseTwo();
-//        exerciseThree();
-//        exerciseFour();
+//        exercise1();
+//        exercise2();
+//        exercise3();
+//        exercise4();
 //    }
 //
 //    /**
 //     * 1: Create variables with the MINIMUM POSSIBLE scope for currentCount and totalCount (both ints)
 //     */
-//    public static void exerciseOne() {
+//    public static void exercise1() {
 //        System.out.println("Exercise 1:");
 //        for (int i = 0; i < 100; i++) {
 //            while (rollD6() == 6) {
@@ -37,7 +37,7 @@
 //     * <p>
 //     * 2b: Now change these modifiers to the MINIMUM possible scope, to have no errors
 //     */
-//    public static void exerciseTwo() {
+//    public static void exercise2() {
 //        System.out.println("\nExercise 2:");
 //        ExerciseLunch exerciseLunch = new ExerciseLunch(3.4, "Tuesday");
 //        exerciseLunch.setLunchWeightInGrams(500);
@@ -49,7 +49,7 @@
 //     *
 //     *    Only make edits that remove or add the words, static or final
 //     */
-//    public void exerciseThree() {
+//    public void exercise3() {
 //        final ExerciseLunch exerciseLunch = null;
 //        exerciseLunch = new ExerciseLunch(3.4, "Tuesday");
 //        ExerciseLunch.printMaxPrice();
@@ -61,7 +61,7 @@
 //     *    and can be accessed anywhere in this class, but nowhere else.
 //     *    use SNAKE_CASE naming
 //     */
-//    public static void exerciseFour() {
+//    public static void exercise4() {
 //        System.out.println("\nExercise 4:");
 //        for (int week = 0; week < 52; week++) {
 //            for (int day = 0; day < 7; day++) {

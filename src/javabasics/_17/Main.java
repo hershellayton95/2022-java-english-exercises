@@ -4,15 +4,15 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseThree();
+        exercise1();
+        exercise3();
     }
 
     /**
      * 1: Write code and fix the program below, you want to accept the questionableFunds
      * into the account!
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1: ");
         int myBankBalanceEuro = 500;
 
@@ -63,7 +63,7 @@ public class Main {
      * * use isBefore() and isAfter() to compare with other dates, use LocalDate.of(year, month, day) to
      * create other days
      */
-    public static void exerciseThree() {
+    public static void exercise3() {
         System.out.println("Exercise 3:");
     }
 }

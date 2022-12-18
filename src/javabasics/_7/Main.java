@@ -2,10 +2,10 @@ package javabasics._7;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
-        exerciseFour();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4();
     }
 
     /**
@@ -13,7 +13,7 @@ public class Main {
      *
      *    print out your string in upper case, and in lower case
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("\nExercise 1:");
         //Write your code here
     }
@@ -21,7 +21,7 @@ public class Main {
     /**
      * 2: Edit the code below so it prints out the first name and last name in uppercase, and the middle name in lower case
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
         // Change these
         String firstName = "(your first name)";
@@ -49,7 +49,7 @@ public class Main {
       * "" + 1.5
      *
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
 
         String textFrom2Primitives = ""; // <--- Edit this line
@@ -64,7 +64,7 @@ public class Main {
      *
      *    You will need to use .trim()
      */
-    private static void exerciseFour() {
+    private static void exercise4() {
         System.out.println("\nExercise 4:");
         String endNumbers = "7 8 9";
         String middleNumbers = "       4 5 6";

@@ -2,10 +2,10 @@ package javabasics._10;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
-        exerciseFourBonus();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4Bonus();
     }
 
     /**
@@ -22,7 +22,7 @@ public class Main {
      *
      *    If these conditions are not met, print: "Uncomfortable clothes"
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("\nExercise 1 - Comfortable clothes:");
 
         double temperatureInCelsius = 25;
@@ -42,7 +42,7 @@ public class Main {
      *    Write 1 if statement that checks all of these, print "Come in" if they meet the condition
      *    or "stay out" if they don't.
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2 - Club Bouncer:");
         String shoeType = "fancy";
 
@@ -68,7 +68,7 @@ public class Main {
      *
      *    Remember was can use ! to invert the value of a boolean, i.e. true -> false
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3 - Test Grader:");
         double ourTestScore = 8;
         double maxTestScore = 10;
@@ -85,7 +85,7 @@ public class Main {
      *
      *    XOR = ^
      */
-    private static void exerciseFourBonus() {
+    private static void exercise4Bonus() {
         System.out.println("\nExercise 4 (Optional) - One way road:");
         boolean carIsDrivingFromLeftToRight = true;
         boolean carIsDrivingFromRightToLeft = false;

@@ -8,9 +8,9 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
+        exercise1();
+        exercise2();
+        exercise3();
     }
 
     /**
@@ -22,7 +22,7 @@ public class Main {
      * <p>
      * Notice how we can use the same exact code for arrays and ArrayLists
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1a:");
         List<Integer> itemsA = Arrays.asList(1, 56, 23);
 
@@ -52,7 +52,7 @@ public class Main {
      * 2: Find the smallest and largest items in the arraylist
      * using a for each loop and an if statement/Math.min
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         List<Integer> items = Arrays.asList(300, 23, 56, 55, 84);
         int minNumber = Integer.MAX_VALUE;
         int maxNumber = 0;
@@ -63,7 +63,7 @@ public class Main {
     /**
      * 3: Edit the fori loop below so it only prints the first 2 names.
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         List<String> names = Arrays.asList("Alan", "Alice", "Antonio", "Aziz");
 
         for (
@@ -85,7 +85,7 @@ public class Main {
      *      https://i.pinimg.com/originals/e0/ca/5f/e0ca5f21a16a02edbba8b758e7aa4af5.jpg
      * </a>
      */
-    private static void exerciseFour() {
+    private static void exercise4() {
         for (
                 int timesTableCurrentValue = 5; // <---- Edit this line
                 timesTableCurrentValue <= 50; // <---- Edit this line
@@ -105,7 +105,7 @@ public class Main {
      *
      * When a loop in inside a loop, we call this a nested loop
      */
-    private static void exerciseFive() {
+    private static void exercise5() {
         for (int timesTableNumber = 1; timesTableNumber <= 10; timesTableNumber++) {
             // Your fori loop here
         }

@@ -2,17 +2,17 @@ package javabasics._9;
 
 public class Main {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
-        exerciseFour();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4();
     }
 
 
     /**
      * 1: Read the code below, change the 'porridgeHeatInCentigrade' so it prints out "Just right"
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("\nExercise 1:");
         int porridgeHeatInCentigrade = 30; // <--- Change this value
 
@@ -33,7 +33,7 @@ public class Main {
      *
      *    Experiment with the values to check both conditions work
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
         double remainingMoney = 15.0;
         double lunchCost = 5.0;
@@ -53,7 +53,7 @@ public class Main {
      *
      *    Remember we can have multiple lines of code inside our 'code blocks'
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
         double ourDouble = 3.5;
         //Write your code here
@@ -71,7 +71,7 @@ public class Main {
      *
      *    Remember, the order is very important!
      */
-    private static void exerciseFour() {
+    private static void exercise4() {
         System.out.println("\nExercise 4:");
 
         int employeeAge = 30;

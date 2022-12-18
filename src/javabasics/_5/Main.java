@@ -3,11 +3,11 @@ package javabasics._5;
 public class Main {
     // Don't forget to use comments to clear things up if you need them!
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
-        exerciseThree();
-        exerciseFourBonus();
-        exerciseFiveBonus();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4Bonus();
+        exercise5Bonus();
         playAroundWithModulus();
     }
 
@@ -24,7 +24,7 @@ public class Main {
      * 1: Create an int variable, add 1 to the value and then print it. Use the + operator
      * Then minus 1 from the same variable and print it.
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1:");
         // Write your code here
     }
@@ -35,7 +35,7 @@ public class Main {
      * Create another double variable, which is the previous variable divided by 2
      * and then print it
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
         // Write your code here
     }
@@ -52,7 +52,7 @@ public class Main {
      * <p>
      * Print out celsius and fahrenheit with 2 print statements
      */
-    private static void exerciseThree() {
+    private static void exercise3() {
         System.out.println("\nExercise 3:");
         // Write your code here
     }
@@ -64,7 +64,7 @@ public class Main {
      * <p>
      * Only using the '++' operator increase this value to 15
      */
-    private static void exerciseFourBonus() {
+    private static void exercise4Bonus() {
         System.out.println("\nExercise 4:");
         // Write your code here
     }
@@ -80,7 +80,7 @@ public class Main {
      * <p>
      * Change this value from 50 to 0 in 3 lines of code
      */
-    private static void exerciseFiveBonus() {
+    private static void exercise5Bonus() {
         System.out.println("\nExercise 5:");
         // Write your code here
     }

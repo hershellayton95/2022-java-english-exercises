@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Exercises {
     public static void main(String[] args) {
-        exerciseOne();
-        exerciseTwo();
+        exercise1();
+        exercise2();
     }
 
 
@@ -20,7 +20,7 @@ public class Exercises {
      *     Add a print statement to the constructor at the start saying "Constructed!"
      *
      */
-    private static void exerciseOne() {
+    private static void exercise1() {
         System.out.println("Exercise 1:");
         List<String> studentNames = Arrays.asList("Alice", "Bob", "Charlie");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
@@ -39,7 +39,7 @@ public class Exercises {
      *    a Constructor that takes only a student's name
      *    a Constructor that does not take any parameters
      */
-    private static void exerciseTwo() {
+    private static void exercise2() {
         System.out.println("\nExercise 2:");
 
         // Once you've added the correct constructors uncomment the code below, there should be errors!
