@@ -1,8 +1,9 @@
-package shared;
+package javaadvanced._4;
+
+import shared.Meal;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 
 public class Main {
@@ -10,16 +11,12 @@ public class Main {
     private static final Random RANDOM = new Random();
 
     public static void main(String[] args) {
+//        Map<String, Meal> menu = generateMenu();
+//        List<Meal> orders = generateOrders(menu);
+//        String fileContent = convertOrdersToCsvContent(orders);
+//
+//        writeToFile(fileContent, ordersCsvPath);
         Path ordersCsvPath = Path.of("orders.csv");
-
-        if (!Files.exists(ordersCsvPath)) {
-            Map<String, Meal> menu = generateMenu();
-            List<Meal> orders = generateOrders(menu);
-            String fileContent = convertOrdersToCsvContent(orders);
-
-            writeToFile(fileContent, ordersCsvPath);
-        }
-
         String ordersRaw = readContentFromFile(ordersCsvPath);
 
         String[] orderRows = ordersRaw.split("\n");
