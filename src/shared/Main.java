@@ -89,10 +89,10 @@ public class Main {
 
     private static Map<String, Meal> generateMenu() {
         Map<String, Meal> menu = new HashMap<>();
-        menu.put("Burger", new Meal(7.80, 500, Set.of("Bun", "Patty", "Sauce")));
-        menu.put("Cheese Burger", new Meal(7.80, 500, Set.of("Bun", "Patty", "Sauce", "Cheese single")));
-        menu.put("Fries", new Meal(3.50, 250, Set.of("Potato", "Loads of oil")));
-        menu.put("Pizza", new Meal(10.0, 700, Set.of("Dough", "Cheese", "Tomato", "Toppings")));
+        menu.put("Burger", new Meal(7.80, 500, Set.of(Ingredient.BUN, Ingredient.PATTY, Ingredient.SAUCE)));
+        menu.put("Cheese Burger", new Meal(7.80, 500, Set.of(Ingredient.BUN, Ingredient.PATTY, Ingredient.SAUCE, Ingredient.CHEESE)));
+        menu.put("Fries", new Meal(3.50, 250, Set.of(Ingredient.POTATO, Ingredient.OIL)));
+        menu.put("Pizza", new Meal(10.0, 700, Set.of(Ingredient.CHEESE, Ingredient.DOUGH, Ingredient.TOMATO)));
 
         return menu;
     }

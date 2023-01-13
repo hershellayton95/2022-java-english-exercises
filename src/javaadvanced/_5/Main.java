@@ -294,8 +294,6 @@ public class Main {
         } catch (IOException ioException) {
             ioException.printStackTrace();
             System.exit(0);
-        } finally {
-            connection.close();
         }
     }
 }

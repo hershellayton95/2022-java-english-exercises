@@ -6,9 +6,9 @@ import java.util.Set;
 public class Meal {
     private Double price;
     private Integer weightInGrams;
-    private Set<String> ingredients;
+    private Set<Ingredient> ingredients;
 
-    public Meal(Double price, Integer weightInGrams, Set<String> ingredients) {
+    public Meal(Double price, Integer weightInGrams, Set<Ingredient> ingredients) {
         this.price = price;
         this.weightInGrams = weightInGrams;
         this.ingredients = ingredients;
@@ -30,7 +30,7 @@ public class Meal {
         this.weightInGrams = weightInGrams;
     }
 
-    public Set<String> getIngredients() {
+    public Set<Ingredient> getIngredients() {
         return ingredients;
     }
 
