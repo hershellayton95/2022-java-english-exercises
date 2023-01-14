@@ -3,11 +3,9 @@ package main.java.javaadvanced._7;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class CalculatorTest {
     /**
-     * Exercise 1:
+     * 1:
      *
      *
      * Create JUnit test for the add() and subtract() methods in the Calculator class.
@@ -15,6 +13,8 @@ class CalculatorTest {
      * Test the methods with multiple test cases, including positive and negative numbers, and zero.
      *
      * Verify that the methods return the correct result for each test case.
+     *
+     * If there is an error you may have to change the code in Calculator to fix it!
      */
     @Test
     void exercise1() {
@@ -23,15 +23,14 @@ class CalculatorTest {
     }
 
     /**
-     * Exercise 2:
+     * 2:
      *
      *
      * Create JUnit test for the multiply() and divide() methods in the Calculator class.
      *
      * Test the same kind of inputs as before as exercise 1
      *
-     * Test that dividing by zero throws an ArithmeticException
-     *
+     * If there is an error you may have to change the code in Calculator to fix it!
      *
      */
     @Test
@@ -40,16 +39,20 @@ class CalculatorTest {
         // Your code here
 
         Calculator calculator = new Calculator();
-//        Assertions.assertThrows(?.class, () -> calculator.divide(10, ?));
+        Assertions.assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0));
     }
 
     /**
-     * Exercise 3:
+     * 3:
      *
      * Create a JUnit test for the power() method in the Calculator class that raises a number to a power.
      * Test the method with test cases where the base is zero, positive, and negative - the exponent is zero, one and negative
      * Test with decimals too!
      * Verify that the method returns the correct result for each test case.
+     *
+     * If there is an error you may have to change the code in Calculator to fix it!
+     *
+     * Don't just write tests that use the result of the program as the expected!!
      */
     @Test
     void exercise3() {
