@@ -5,4 +5,9 @@ public class Car implements NoiseMaker {
     public String soundOfNoise() {
         return "Vroom";
     }
+
+    @Override
+    public double getDecimalsOfNoise() {
+        return 0;
+    }
 }

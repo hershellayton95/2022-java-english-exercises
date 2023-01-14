@@ -1,10 +1,10 @@
 package main.java.javaoopadvanced._2;
 
-public class Bird implements NoiseMaker {
+public class Bird extends Animal {
     private double wingSpan;
 
     public Bird(double height, double weight, double wingSpan) {
-//        super(height, weight);
+        super(height, weight);
         this.wingSpan = wingSpan;
     }
 
@@ -24,5 +24,15 @@ public class Bird implements NoiseMaker {
     @Override
     public String soundOfNoise() {
         return "Squawk";
+    }
+
+    @Override
+    public double getDecimalsOfNoise() {
+        return 0;
+    }
+
+    @Override
+    double calculateMovementSpeedMetersPerSecond() {
+        return 0;
     }
 }

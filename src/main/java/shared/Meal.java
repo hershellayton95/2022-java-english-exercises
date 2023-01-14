@@ -35,26 +35,39 @@ public class Meal {
     }
 
     @Override
-    public String toString() {
-        return "Meal{" +
-                "price=" + price + "EUR"+
-                ", weightInGrams=" + weightInGrams +
-                ", ingredients=" + ingredients +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object theOtherObject) {
-        if (this == theOtherObject) return true;
-        if (!(theOtherObject instanceof Meal)) return false;
+        if (this == theOtherObject) {
+            return true;
+        }
+
+        if (!(theOtherObject instanceof Meal)) {
+            return false;
+        }
 
         Meal meal = (Meal) theOtherObject;
 
-        return Objects.equals(ingredients, meal.ingredients);
+        if (meal.getWeightInGrams() == this.getWeightInGrams()) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     @Override
     public int hashCode() {
-        return ingredients != null ? ingredients.hashCode() : 0;
+        if(weightInGrams != null)  {
+            return weightInGrams;
+        } else {
+            return 0;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Meal{" +
+                "price=" + price +
+                ", weightInGrams=" + weightInGrams +
+                ", ingredients=" + ingredients +
+                '}';
     }
 }
