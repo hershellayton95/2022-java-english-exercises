@@ -1,6 +1,6 @@
-package main.java.javaadvanced._3;
+package javaadvanced._3;
 
-import main.java.shared.Meal;
+import shared.Meal;
 import java.util.*;
 
     public class Main {

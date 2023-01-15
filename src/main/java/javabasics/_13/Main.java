@@ -1,4 +1,4 @@
-package main.java.javabasics._13;
+package javabasics._13;
 
 import java.util.ArrayList;
 

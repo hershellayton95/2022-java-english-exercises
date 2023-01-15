@@ -1,6 +1,5 @@
-package main.java.shared;
+package shared;
 
-import java.util.Objects;
 import java.util.Set;
 
 public class Meal {

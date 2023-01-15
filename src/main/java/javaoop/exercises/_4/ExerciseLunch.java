@@ -1,4 +1,4 @@
-package main.java.javaoop.exercises._4;
+package javaoop.exercises._4;
 
 public class ExerciseLunch {
     private Double price = null;

@@ -1,4 +1,4 @@
-package main.java.shared;
+package shared;
 
 public class Lunch {
     private Double price = null;

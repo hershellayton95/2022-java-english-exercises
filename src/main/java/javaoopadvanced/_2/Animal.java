@@ -1,4 +1,4 @@
-package main.java.javaoopadvanced._2;
+package javaoopadvanced._2;
 
 abstract class Animal implements NoiseMaker {
     private double height, weight;

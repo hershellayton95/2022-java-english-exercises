@@ -1,6 +1,6 @@
-package main.java.javaoopadvanced._3;
+package javaoopadvanced._3;
 
-import main.java.shared.Meal;
+import shared.Meal;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package main.java.javabasics._2;
+package javabasics._2;
 
 public class Main {
     //Run this like before to execute all the exercises

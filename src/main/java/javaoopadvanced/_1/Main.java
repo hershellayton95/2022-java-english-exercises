@@ -1,9 +1,9 @@
-package main.java.javaoopadvanced._1;
+package javaoopadvanced._1;
 
-import main.java.shared.AirplaneMeal;
-import main.java.shared.HospitalMeal;
-import main.java.shared.Ingredient;
-import main.java.shared.Meal;
+import shared.AirplaneMeal;
+import shared.HospitalMeal;
+import shared.Ingredient;
+import shared.Meal;
 
 import java.util.Set;
 

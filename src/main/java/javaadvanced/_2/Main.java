@@ -1,6 +1,6 @@
-package main.java.javaadvanced._2;
+package javaadvanced._2;
 
-import main.java.shared.Meal;
+import shared.Meal;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.javaoopadvanced._1;
+package javaoopadvanced._1;
 
 class Animal {
     private double height, weight;

@@ -1,4 +1,4 @@
-package main.test.javaadvanced._7;
+package javaadvanced._7;
 
 
 import org.junit.jupiter.api.Test;

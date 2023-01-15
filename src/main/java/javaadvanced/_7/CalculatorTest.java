@@ -1,4 +1,5 @@
-package main.java.javaadvanced._7;
+package javaadvanced._7;
+
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

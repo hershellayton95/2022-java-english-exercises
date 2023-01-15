@@ -1,4 +1,4 @@
-package main.java.shared;
+package shared;
 
 public enum Ingredient {
     BUN(0.2),

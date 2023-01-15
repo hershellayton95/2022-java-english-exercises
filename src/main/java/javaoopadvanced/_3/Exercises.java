@@ -1,4 +1,4 @@
-package main.java.javaoopadvanced._3;
+package javaoopadvanced._3;
 
 public class Exercises {
 

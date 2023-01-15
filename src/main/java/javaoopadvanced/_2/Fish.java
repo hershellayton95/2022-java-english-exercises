@@ -1,4 +1,4 @@
-package main.java.javaoopadvanced._2;
+package javaoopadvanced._2;
 
 public class Fish extends Animal {
     public Fish(double height, double weight) {

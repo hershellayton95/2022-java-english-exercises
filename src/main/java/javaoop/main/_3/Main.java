@@ -1,4 +1,4 @@
-package main.java.javaoop.main._3;
+package javaoop.main._3;
 
 public class Main {
     public static void main(String[] args) {

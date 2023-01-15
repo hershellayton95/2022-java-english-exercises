@@ -1,4 +1,4 @@
-package main.java.javabasics._6;
+package javabasics._6;
 
 public class Main {
     // Don't forget to use comments to clear things up if you need them!

@@ -1,4 +1,4 @@
-package main.java.javaoop.main._4;
+package javaoop.main._4;
 
 public class Chef {
     public void setupLunchDetails() {

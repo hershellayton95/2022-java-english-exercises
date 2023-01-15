@@ -1,4 +1,4 @@
-package main.java.shared;
+package shared;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

@@ -1,4 +1,4 @@
-package main.java.javaadvanced._5;
+package javaadvanced._5;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package main.java.javabasics._14;
+package javabasics._14;
 
 import java.util.Arrays;
 import java.util.List;

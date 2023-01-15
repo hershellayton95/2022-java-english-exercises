@@ -1,4 +1,4 @@
-package main.java.javaadvanced._4;
+package javaadvanced._4;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

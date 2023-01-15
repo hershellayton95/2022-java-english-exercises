@@ -1,6 +1,6 @@
-package main.java.javaoop.main;
+package javaoop.main;
 
-import main.java.javaoop.main._4.ScopedLunch;
+import javaoop.main._4.ScopedLunch;
 
 public class Main {
     void start(String[] args) {

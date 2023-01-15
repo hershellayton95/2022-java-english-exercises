@@ -1,9 +1,7 @@
-package main.test;
-
-import main.java.shared.Main;
-import main.java.shared.Meal;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import shared.Main;
+import shared.Meal;
 
 import java.util.Map;
 

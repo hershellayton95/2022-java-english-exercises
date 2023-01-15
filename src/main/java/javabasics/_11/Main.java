@@ -1,4 +1,4 @@
-package main.java.javabasics._11;
+package javabasics._11;
 
 public class Main {
     public static void main(String[] args) {

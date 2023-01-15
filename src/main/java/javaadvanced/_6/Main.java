@@ -1,6 +1,6 @@
-package main.java.javaadvanced._6;
+package javaadvanced._6;
 
-import main.java.shared.Ingredient;
+import shared.Ingredient;
 
 public class Main {
     public static void main(String[] args) {

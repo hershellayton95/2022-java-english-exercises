@@ -1,4 +1,4 @@
-package main.java.javaadvanced._6;
+package javaadvanced._6;
 
 public class Exercises {
     public static void main(String[] args) {
