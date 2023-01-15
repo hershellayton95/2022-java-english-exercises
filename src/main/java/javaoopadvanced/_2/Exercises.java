@@ -15,7 +15,7 @@ public class Exercises {
      *
      * Create instances of both and calculate their area
      *
-     * To calculate the area copy the following code: Math.pow((height / 2)) * Math.PI, 2)
+     * To calculate the area copy the following code:  Math.PI * Math.pow((height / 2), 2)
      *
      * BONUS: Make sure the height and width values are exactly the same for Circle, change the constructor to do this
      */
