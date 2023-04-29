@@ -31,9 +31,13 @@ public class Exercises {
                 """;
 
         try {
-            Files.createFile(MY_PATH);
+            if(!Files.exists(MY_PATH)){
+                Files.createFile(MY_PATH);
+            }
 
             // Your code here
+            Files.writeString(MY_PATH, myString);
+            System.out.println("Scritto");
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
@@ -50,13 +54,13 @@ public class Exercises {
         System.out.println("\nExercise 2: ");
         try {
             // Your code here
+            String stringFromFile = Files.readString(MY_PATH);
+            System.out.println(stringFromFile);
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
             System.exit(0);
         }
-
-
     }
 
      /**
@@ -66,9 +70,12 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Write code here to read the file and return the number of lines "\n", string.split
-
+        int nString = 0;
         try {
             // Your code here
+            String stringFromFile = Files.readString(MY_PATH);
+            nString = stringFromFile.split("\n").length;
+            System.out.println(nString);
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
@@ -85,8 +92,12 @@ public class Exercises {
      */
     private static void exercise4() {
         System.out.println("\nExercise 4: ");
+        int nString = 0;
         try {
             // Your code here
+            String stringFromFile = Files.readString(MY_PATH);
+            nString = stringFromFile.split(" ").length;
+            System.out.println(nString);
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
@@ -104,7 +115,14 @@ public class Exercises {
 
         try {
             // Your code
+            if(!Files.exists(myDirectoryPath)){
+                Files.createDirectory(myDirectoryPath);
+            }
+            if(!Files.exists(PATH_IN_A_FOLDER)){
+                Files.createFile(PATH_IN_A_FOLDER);
+            }
             Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");
+            System.out.println("file scritto nella directory" + PATH_IN_A_FOLDER);
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();

@@ -1,5 +1,9 @@
 package javaadvanced._5;
 
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 public class Exercises {
     public static void main(String[] args) {
         exercise1();
@@ -15,7 +19,15 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("Exercise 1: ");
         // Your code here
-//        Files.createFile(Path.of("Test.txt"));
+        try {
+            if (!Files.exists(Path.of("Test.txt"))){
+                Files.createFile(Path.of("Test.txt"));
+            }
+        } catch (Exception exception){
+            System.err.println("There was an error!");
+            exception.printStackTrace();
+            System.exit(0);
+        }
     }
 
     /**
@@ -30,6 +42,12 @@ public class Exercises {
         // Your code here
 
         String userInputFileName = "test-file.txt";
+        try {
+            Files.readString(Path.of(userInputFileName));
+        } catch (Exception exception){
+            System.out.println("File could not be found");
+        }
+
     }
 
     /**
@@ -40,10 +58,13 @@ public class Exercises {
      * In the catch block, print a message that informs the user that the input was not a valid integer.
      */
     private static void exercise3() {
-        System.out.println("\nExercise 3: ");
         // Your code here
-
-        Integer.parseInt("house");
+        try {
+            System.out.println("\nExercise 3: ");
+            Integer.parseInt("house");
+        } catch (Exception exception){
+            System.out.println("Input was not a valid integer");
+        }
     }
 
     /**
@@ -62,9 +83,11 @@ public class Exercises {
 
         Double num1 = 10.0;
         String num2AsString = "0.0";
-        // try{
+         try{
             System.out.println(num1/Double.parseDouble(num2AsString));
-        //}
+        } catch (Exception exception){
+
+         }
         // Your catch blocks here
 
     }
