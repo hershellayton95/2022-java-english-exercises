@@ -24,8 +24,13 @@ public class Exercises {
 
         // Add some numbers using the add method
         // Your code
+        ourSet.add(1);
+        ourSet.add(1);
+        ourSet.add(5);
+        ourSet.add(2);
+        ourSet.add(1);
 
-        if (ourSet.containsAll(Set.of(1, 1, 5, 2, 1))) {
+        if (ourSet.containsAll(Set.of( 5, 2, 1))) {
             System.out.println("1a. Set contains all numbers");
         } else {
             System.out.println("1a. Set does not contain all numbers");
@@ -35,6 +40,7 @@ public class Exercises {
 
         // Remove the element '1'
         // Your code
+        ourSet.remove(1);
 
         System.out.println(ourSet);
 
@@ -61,14 +67,14 @@ public class Exercises {
 
         fruitsSet.addAll(fruitsSet);
 
-        //2a. What will this output? [Write your guesses in here]
+        //2a. What will this output? [apple, banana, orange, kiwi, mango]
         System.out.println(fruitsSet);
 
         List<String> fruitsList = List.of("apple", "banana", "grapes", "pear", "mango");
 
         fruitsSet.addAll(fruitsList);
 
-        //2b. What will this output? [Write your guesses in here]
+        //2b. What will this output?  [apple, banana, orange, kiwi, mango, grapes, pear]
         System.out.println(fruitsSet);
     }
 
@@ -78,16 +84,23 @@ public class Exercises {
     private static void exercise3() {
         // 3a. Find the min and max values in the Set below
         Set<Integer> numbers = Set.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        int max = Integer.MAX_VALUE;
-        int min = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
 
         for (Integer number : numbers) {
-            // Your code
+            if(number > max){
+                max = number;
+            }
+            if (number < min){
+                min = number;
+            }
         }
 
         if (max != 10 || min != 1) {
             System.out.println("3a. Incorrect min or max values");
+        } else {
+            System.out.println("3a. Correct min or max values");
         }
 
         // 3b. Find which items from set a are also in set b, add these to itemsContainedInBothSets
@@ -97,6 +110,11 @@ public class Exercises {
         Set<Integer> itemsContainedInBothSets = new HashSet<>();
 
         // Your code
+        for(int itemSetB : setB) {
+            if (setA.contains(itemSetB)) {
+                itemsContainedInBothSets.add(itemSetB);
+            }
+        }
 
         if (!itemsContainedInBothSets.equals(Set.of(5, 6, 7, 8, 9, 10))) {
             System.out.println("3b. Incorrect number of items in itemsContainedInBothSets");
@@ -116,6 +134,7 @@ public class Exercises {
         //     you can use `break;` to exit the loop once you've found it!
         int min = Integer.MAX_VALUE;
         // Your code
+        min = orderedNumbers.toArray(new Integer[0])[0];
 
         if (min != 1) {
             System.out.println("4a. Incorrect min value");

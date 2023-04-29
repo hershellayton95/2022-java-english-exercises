@@ -10,6 +10,9 @@ public class Exercises {
         exercise3();
     }
 
+    public static <T> void myPrint(T param){
+        System.out.println(param);
+    }
     /**
      * 1: Follow the steps below
      */
@@ -18,10 +21,17 @@ public class Exercises {
         Map<Integer, String> myFirstMap = new HashMap<>();
 
         // 1b. Add 3 elements to the map .put
+        myFirstMap.put(0, "Item0");
+        myFirstMap.put(1, "Item1");
+        myFirstMap.put(2, "Item2");
         // 1c. Print the map
+        System.out.println(myFirstMap);
         // 1d. Access an element in the map with .get
+        myPrint(myFirstMap.get(0));
         // 1e. Remove an element from the map .remove
+        myFirstMap.remove(0);
         // 1f. Print the map again to confirm the element was removed
+        myPrint(myFirstMap);
     }
 
     /**
@@ -42,6 +52,17 @@ public class Exercises {
         //     to do so
 
         // Your code
+        for(Map.Entry<String, Double> entry : menuCostsInEuro.entrySet()){
+            String meal = entry.getKey();
+            double cost = entry.getValue();
+
+            if(mostExpensiveMenuItemName == null){
+                mostExpensiveMenuItemName = meal;
+            }
+            if(cost > menuCostsInEuro.get(mostExpensiveMenuItemName)){
+                mostExpensiveMenuItemName = meal;
+            }
+        }
 
         if (mostExpensiveMenuItemName.equals("Pizza")) {
             System.out.println("2a. Correct!");
@@ -69,6 +90,9 @@ public class Exercises {
         // 3a. Use a for loop with fruitWeights.values() and sum up the total weight
 
         // Your code
+        for (int weight : fruitWeights.values()){
+            totalWeight += weight;
+        }
 
         if (totalWeight == fruitWeights.values().stream().mapToInt(Integer::intValue).sum()) {
             System.out.println("3. Correct!");

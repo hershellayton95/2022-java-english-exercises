@@ -20,6 +20,9 @@ public class Exercises {
         List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "a", "b", "c", "a", "b", "c"));
 
         // Your code here
+        Set<String> setfromList = Set.copyOf(list);
+        list = new ArrayList<>();
+        list.addAll(setfromList);
 
         if (list.size() == 3) {
             System.out.println("Exercise 1: Success");
@@ -36,12 +39,14 @@ public class Exercises {
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-        // toSet(list); <-- uncomment
-        // toSet(set); <-- uncomment
+        System.out.println(toSet(list));
+        System.out.println(toSet(set));
     }
 
     // Write your method for exercise 2 here
-
+    private static Set<String> toSet(Collection collection){
+        return Set.copyOf(collection);
+    }
 
     /**
      * 3: Follow the instructions in the comments
@@ -56,6 +61,14 @@ public class Exercises {
         // from the Map and then increment it by 1, if no previous value exists, use 0 as the previous value.
 
         // Your code here
+        for (String word : words){
+            if(!wordCount.containsKey(word)){
+                wordCount.put(word, 1);
+            } else {
+                wordCount.put(word, wordCount.get(word) + 1);
+            }
+        }
+        System.out.println(wordCount);
     }
 
     /**
