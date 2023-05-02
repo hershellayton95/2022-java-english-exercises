@@ -84,9 +84,15 @@ public class Exercises {
         Double num1 = 10.0;
         String num2AsString = "0.0";
          try{
+             if(num1 == 0.0 || Double.parseDouble(num2AsString) == 0.0){
+                 throw new DivideByZeroException();
+             }
             System.out.println(num1/Double.parseDouble(num2AsString));
-        } catch (Exception exception){
+        } catch (NumberFormatException exception){
+             exception.printStackTrace();
 
+         } catch (DivideByZeroException exception){
+             exception.printStackTrace();
          }
         // Your catch blocks here
 

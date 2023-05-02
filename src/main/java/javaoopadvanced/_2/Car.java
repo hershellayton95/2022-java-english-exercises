@@ -1,6 +1,6 @@
 package javaoopadvanced._2;
 
-public class Car implements NoiseMaker {
+public class Car implements NoiseMaker,Movable {
     @Override
     public String soundOfNoise() {
         return "Vroom";
@@ -9,5 +9,15 @@ public class Car implements NoiseMaker {
     @Override
     public double getDecimalsOfNoise() {
         return 0;
+    }
+
+    @Override
+    public void moveForward() {
+
+    }
+
+    @Override
+    public void moveBackward() {
+
     }
 }

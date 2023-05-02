@@ -21,6 +21,9 @@ class CalculatorTest {
     void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(7, calculator.add(5,2));
+        Assertions.assertEquals(3, calculator.subtract(5,2));
     }
 
     /**
@@ -40,7 +43,10 @@ class CalculatorTest {
         // Your code here
 
         Calculator calculator = new Calculator();
-        Assertions.assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0));
+        Assertions.assertEquals(25, calculator.multiply(5,2));
+        Assertions.assertEquals(2.5, calculator.divide(5,2));
+        Assertions.assertEquals(Double.POSITIVE_INFINITY, calculator.divide(5,0));
+//        Assertions.assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0));
     }
 
     /**
@@ -59,5 +65,7 @@ class CalculatorTest {
     void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(Math.pow(5,2), calculator.power(2,5));
     }
 }

@@ -22,6 +22,10 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+        Rectangle rectangle = new Rectangle(4, 3);
+        Circle circle = new Circle(2);
+        System.out.println("L'area del rettangolo è " + rectangle.calculateArea());
+        System.out.println("L'area del cerchio è " + circle.calculateArea());
     }
 
     /**
@@ -37,6 +41,13 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
+        Car car = new Car();
+        car.moveBackward();
+        car.moveForward();
+
+        Boat boat = new Boat();
+        boat.moveForward();
+        boat.moveBackward();
     }
 
     /**
@@ -54,5 +65,10 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
+        Guitar guitar = new Guitar();
+        Piano piano = new Piano();
+
+        guitar.play();
+        piano.play();
     }
 }

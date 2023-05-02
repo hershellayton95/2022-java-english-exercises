@@ -1,5 +1,9 @@
 package javaoopadvanced._1;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 public class Exercises {
     public static void main(String[] args) {
         exercise1();
@@ -22,6 +26,7 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+
     }
 
     /**
@@ -54,6 +59,26 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
+        Dog dog1 = new Dog(1.2, 50.0, "Alan");
+        Fish fish1 = new Fish(20.0, 15.0, "Salmon");
+        Bird bird1 = new Bird(13.0,0.2,0.3);
 
+        Map<String, Double> speedMap =new HashMap();
+        speedMap.put("dog1", dog1.runSpeedMetersPerSecond());
+        speedMap.put("fish1", fish1.swimSpeedMetersPerSecond());
+        speedMap.put("bird1", bird1.flySpeedMetersPerSecond());
+
+        String fasterAnimal = null;
+        for (Map.Entry<String, Double> entry : speedMap.entrySet()){
+            String key = entry.getKey();
+            double value = entry.getValue();
+            if(fasterAnimal == null){
+                fasterAnimal = key;
+            }
+            if(value > speedMap.get(fasterAnimal)){
+                fasterAnimal = key;
+            }
+        }
+        System.out.println(fasterAnimal.toUpperCase() + " is the faster animal here!");
     }
 }
