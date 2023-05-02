@@ -19,6 +19,8 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+        Person person = new Person("Filippo", 27, "corso Tukory, 32");
+        System.out.println(person.toString());
     }
 
     /**
@@ -34,6 +36,10 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 1: ");
         // Your code here
+        Person person1 = new Person("Filippo", 27, "corso Tukory, 32");
+        Person person2 = new Person("Romano", 29, "via Vittorio Emanuele, 157");
+        System.out.println(person1.hashCode());
+        System.out.println(person2.hashCode());
     }
 
     /**
